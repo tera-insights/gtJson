@@ -1,0 +1,15 @@
+Package: gtJson
+Type: Package
+Title: An R Interface for using objects created by grokit and rjson
+Version: 1.0
+Date: 2013-09-19
+Author: Jon Claus
+Maintainer: Jon Claus <jonterainsights@gmail.com>
+Depends: rjson 
+Description: The rgrokit library utilizes R as a dispatch system for the grokit
+             system. Results are then stored in file using JSON and imported
+             into R using the rjson library. This library provides utilities for
+             treating those JSON objects as more familiar R objects such as
+             lists and matrices.
+License: Propietary
+Collate: data.list.R exports.R imports.R
